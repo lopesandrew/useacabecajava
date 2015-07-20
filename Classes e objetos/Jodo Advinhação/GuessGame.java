@@ -6,7 +6,7 @@ public class GuessGame{
 
 	public void startGame(){
 	 p1 = new Player();
-	 p2 = new Player();
+	 p2 = new Player(); //Guessgame tem tres variaveis de instancia para os tres Objeto Player 
 	 p3 = new Player();
 
 	 int guessp1 = 0;
@@ -14,7 +14,7 @@ public class GuessGame{
 	 int guessp3 = 0;
 
 	 boolean p1isRight = false;
-	 boolean p2isRight = false;
+	 boolean p2isRight = false; 
 	 boolean p3isRight = false;
 
 

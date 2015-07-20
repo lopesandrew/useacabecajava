@@ -1,6 +1,7 @@
 class Dog {
 	
 		String name; 
+		String raça; 
 	
 	
 
@@ -21,6 +22,7 @@ public static void main (String[] args){
 	
 	myDogs[0].name = "Fred"; 
 	myDogs[1].name = "Marge";
+	myDogs[0].raça = "Labrador" ;
 	//Hmm qual o nome de myDogs[2]? 
 	System.out.println("o nome do ultimo cao é : ");
 	System.out.println(myDogs[2].name);
